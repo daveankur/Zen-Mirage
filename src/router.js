@@ -8,8 +8,8 @@ function registerProviders() {
   const providersDir = path.join(__dirname, '../providers');
   
   if (!fs.existsSync(providersDir)) {
-      console.warn('⚠️ Providers directory not found. Creating it...');
-      fs.mkdirSync(providersDir, { recursive: true });
+      console.warn('⚠️ Providers directory not found. No endpoints to register.');
+      return router;
   }
 
   // Recursively read all .js files in providers/
