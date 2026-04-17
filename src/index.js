@@ -10,14 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Main health endpoint
-app.get('/', (req, res) => {
-  res.json({ 
-      status: 'ok', 
-      service: 'zen-mock-data',
-      message: 'GTM Mock API Server is running.' 
-  });
-});
+
 
 // Register dynamically discovered routes
 app.use('/', registerProviders());
