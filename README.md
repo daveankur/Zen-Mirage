@@ -3,7 +3,7 @@
 > Because your automation workflows shouldn't have a bigger budget than your morning coffee. Stop burning real dollars on live API calls just to see if a webhook works. Test like a pro, spend like a monk. 
 
 ## 🤕 The Pain
-You're trying to build a beautiful, complex automation workflow in n8n. To test it properly, you need real data payloads. So you configure your HTTP nodes to hit expensive APIs like Apollo, Serper.dev, or data enrichment tools. 
+You're trying to build a beautiful, complex automation workflow in any workflow tool. To test it properly, you need real data payloads. So you configure your HTTP nodes to hit expensive APIs like Apollo, Serper.dev, or data enrichment tools. 
 
 - Every time you press "Execute Workflow", you burn live credits. 
 - Every time you demo it to a client, you risk exposing real, highly sensitive PII (Personally Identifiable Information).
