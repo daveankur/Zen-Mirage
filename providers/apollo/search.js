@@ -4,20 +4,239 @@ module.exports = {
   method: 'POST',
   generate: (faker, requestBody) => {
     return {
-  "contacts": [
+  "total_entries": 232764882,
+  "people": [
     {
+      "id": faker.string.uuid(),
       "first_name": faker.person.firstName(),
-      "last_name": faker.person.lastName(),
-      "email": faker.internet.email(),
-      "organization_name": faker.company.name(),
+      "last_name_obfuscated": "Hu***n",
       "title": faker.person.jobTitle(),
-      "city": faker.location.city(),
-      "custom_identifier": faker.string.uuid()
+      "last_refreshed_at": "2025-11-04T23:20:32.690+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": false,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": false,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "St***g",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-05T15:56:08.901+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Ac***a",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-03T10:01:50.493+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": false,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": false,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Ch***n",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-09-29T11:53:35.791+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": false,
+        "has_state": false,
+        "has_country": false,
+        "has_zip_code": false,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Th***n",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-07T17:08:51.086+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Kr***i",
+      "title": null,
+      "last_refreshed_at": "2025-11-05T23:23:13.047+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Ki***g",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-07T07:13:05.197+00:00",
+      "has_email": true,
+      "has_city": false,
+      "has_state": false,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": false,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": false,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Be***k",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-02T05:22:18.569+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": false,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Ga***a",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-05T13:50:24.941+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": faker.string.uuid(),
+      "first_name": faker.person.firstName(),
+      "last_name_obfuscated": "Gr***y",
+      "title": faker.person.jobTitle(),
+      "last_refreshed_at": "2025-11-06T15:08:56.795+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": faker.person.fullName(),
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": false,
+        "has_employee_count": true
+      }
     }
-  ],
-  "pagination": {
-    "total_pages": 1
-  }
+  ]
 };
   }
 };
